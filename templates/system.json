@@ -1,0 +1,15 @@
+{
+  "_id": "{{@ system @}}",
+  "headers": {
+    "X-VM-Cloud-Access": "$SECRET(api_key)"
+  },
+  "operations": {
+    "files-list": {
+      "method": "GET",
+      "url": "deployments/4a95f5e0-0ad3-4217-ae28-88f548821539/rule-sets/files"
+    }
+  },
+  "type": "system:rest",
+  "url_pattern": "https://api.victoriametrics.cloud/api/v1/%s",
+  "verify_ssl": true
+}

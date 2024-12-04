@@ -1,0 +1,11 @@
+{
+  "_id": "{{@ system @}}-{{@ datatype @}}-collect",
+  "comment": "We started logging tenant id from 2024-03-05, todo switch from rescan to regular cron expression, now - 2 days",
+  "namespaced_identifiers": false,
+  "source": {
+    "operation": "files",
+    "system": "{{@ system @}}",
+    "type": "rest"
+  },
+  "type": "pipe"
+}

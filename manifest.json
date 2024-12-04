@@ -1,0 +1,12 @@
+{
+  "additional_parameters": {},
+  "auth": "api_key",
+  "datatypes": {
+    "talksharemetrics": {
+      "template": "templates/talksharemetrics.json"
+    }
+  },
+  "requires_service_api_access": true,
+  "system-template": "templates/system.json",
+  "use_webhook_secret": false
+}
